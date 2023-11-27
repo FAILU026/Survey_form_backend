@@ -14,7 +14,7 @@ app.use(cors(
 ));  
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = "https://survey-form-backend.vercel.app"|| 5000;
 const mongoDBURL = "mongodb+srv://root:root@cluster0.kb0qfyl.mongodb.net/survey?retryWrites=true&w=majority"
 
 
