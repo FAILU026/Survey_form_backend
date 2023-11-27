@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
   {
-    origin: ["http://localhost:3000"],
+    origin: ["https://survey-form-ten-delta.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
